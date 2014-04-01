@@ -1,12 +1,69 @@
+# Compiled source #
+
+.project
+.cache
+.classpath
+*.bak
+.settings/
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.wst.common.component
+.settings/org.eclipse.wst.common.project.facet.core.xml
+###################
+
 *.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
 *.jar
-*.war
-*.ear
+*.rar
+*.tar
+*.zip
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Logs and databases #
+######################
+*.log
+##*.sqlite
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Folder
+#####################
+/class
+**/.svn*
+/**/text-base*
+/**/.svn*
+*.svn*
+/.svn
+/target
+/bin
+*/target/*
+*/bin/*
+target/**/*
+/screens
+.settings/*
+.idea/*
+*.idea*
+/.idea
+/.idea/*
+*.iml
+
+
+target
+/target
+target
